@@ -1,0 +1,356 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+.ribbon {
+  font-size: 28px;
+  font-weight: bold;
+  background-color: rgb(207, 108, 211);
+  max-height: 100px;
+}
+.ribbon {
+  --r: .8em; /* control the cutout */
+  
+  padding-left: calc(var(--r) + .25em);
+  line-height: 1.8;
+  clip-path: polygon(100vw 0,0 0,var(--r) 50%,0 100%,100vw 100%);
+  background-color: rgb(207, 108, 211);
+  height: 100px;
+  width: 190px;
+   margin: 0 1320px;
+ 
+}
+
+.ribbon1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon1 {
+  --r: .8em; /* control the cutout */
+  position: absolute;
+  padding-right: calc(var(--r) + .25em);
+  line-height: 1.8;
+  clip-path: polygon(-100vw 0,100% 0,calc(100% - var(--r)) 50%,100% 100%,-100vw 100%);
+  background-color: rgb(207, 108, 211);
+  height: 100px;
+  width: 190px;
+}
+
+.ribbon2 {
+  font-size: 28px;
+  font-weight: bold;
+  background-color: rgb(207, 108, 211);
+  max-height: 100px;
+}
+
+.ribbon2 {
+  --r: .8em; /* control the cutout */
+  position: absolute;
+  padding-left: calc(var(--r) + .25em);
+  line-height: 1.8;
+  clip-path: polygon(100vw 0,0 0,var(--r) 50%,0 100%,100vw 100%);
+  background-color: rgb(207, 108, 211);
+  height: 100px;
+  width: 190px;
+   margin: 50px 1320px;
+ 
+}
+
+.ribbon3{
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon3{
+  --r: .8em; /* control the cutout */
+  position: absolute;
+  padding-right: calc(var(--r) + .25em);
+  line-height: 1.8;
+  clip-path: polygon(-100vw 0,100% 0,calc(100% - var(--r)) 50%,100% 100%,-100vw 100%);
+  background-color: rgb(207, 108, 211);
+  height: 100px;
+  width: 190px
+  ;margin-top: 202px;
+
+}
+
+.one
+{
+ 
+  align-items: center;
+  height: 60vh;
+ 
+  
+}
+.heading{
+ 
+  font-size: 50px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(207, 108, 211);
+  text-align: center;
+  width: 500px;
+  padding: auto;
+  margin-left: 500px;
+  margin-top: 100px;
+
+}
+
+
+
+.para{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 30px;text-align: center;
+}
+
+.bor{
+  
+  margin-top: 20px;
+  font-size: 30px; 
+  color: rgb(207, 108, 211);
+  text-align: center;
+}
+
+.meet{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: 20px;
+  padding-top: 30px;text-align: center;
+}
+
+.two{
+  background-color: antiquewhite;
+    
+}
+.h2{
+     text-align: center;
+     background-color:  rgb(207, 108, 211);
+     color: white;
+      width: max-content;
+      margin: 6.7% auto;
+      font-size: 30px;
+      padding: 5px 10px;
+      border-radius: 7px;
+}
+
+.c{
+   height: 200px;
+   width: 200px;
+   
+}
+
+.cards{
+  display: flex;
+  margin: 10px 500px;
+  gap: 100px;
+  
+}
+
+.t{
+  transition: transform .3s ease-in-out
+}
+.t:hover{
+  transform: scale(1.5);
+   
+}
+
+.meet{
+  transition: 0.3s  ease-in-out;
+
+  
+}
+.meet:hover{
+ transform: scale(1.5) ;
+ color:  rgb(207, 108, 211);
+ font-size: 25px;
+}
+.cards1{
+  display: flex;
+  margin: 70px 300px;
+  gap: 160px;
+}
+
+.cards2{
+  display: flex;
+  margin: 20px 20px 100px 120px;
+  gap: 170px;
+}
+
+.cards3{
+  display: flex;
+  margin: 0px  290px;
+  gap: 170px;
+  
+}
+
+.txt{
+  text-align: center;
+}
+@media only screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px)  /*for xr*/
+   {
+    .heading{
+      margin-left: 500px;
+   }
+     .h2{
+       margin-left: 550px;
+       margin-top: 95px;
+     
+     }
+   .para{
+   width: 1000px;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 250px;
+   }
+
+   .one{
+      max-height: 40vh;
+   }
+
+   .bor{
+    margin-top: 20px;
+    font-size: 20px; 
+    color: rgb(207, 108, 211);
+    text-align: center; width: 900px;
+    margin-left: 300px;
+   }
+     .meet{
+      width: 900px;
+      margin-left: 300px;
+      margin-bottom: 5px;
+     }
+
+     #a{
+     margin-left:620px;
+     }
+
+     #a1{
+      margin-left:580px;
+      }
+
+      .cards2{
+      margin-right: 30px;
+      margin-left: 100px;
+       margin-top: 130px;
+       
+      }
+  }
+
+ 
+
+    @media only screen /*forinfinix*/
+    and (min-device-width: 720px) 
+    and (min-device-height: 1440px){
+      .heading{
+        margin-left: 390px;
+     }
+       
+     .para{
+    margin-right: 400px;
+     }
+  
+     .bor{
+      font-size: 30px;
+      margin-right: 400px;
+     }
+       .meet{
+        margin-right: 300px;
+       }
+    .h2{
+      margin-left: 650px;
+    }
+       #a{
+       margin-left:690px;
+       margin-top: 95px;
+       }
+  
+       #a1{
+        margin-left:650px;
+        margin-top: 95px;
+        }
+  
+        .cards{
+          margin-left: 599px;
+        }
+        .cards1{
+          margin-left:380px;
+        }
+
+        .cards2{
+          margin-left: 190px;
+        }
+        .cards3{
+    
+          margin-left: 380px;
+        }
+
+        #r{
+          margin-left: 1450px;
+        }
+    } 
+
+
+    @media only screen 
+    and (min-device-width: 360px) 
+    and (min-device-height: 740px)  /*for s+*/
+   {
+    .heading{
+      margin-left: 500px;
+   }
+     .h2{
+       margin-left: 550px;
+       margin-top: 95px;
+     
+     }
+   .para{
+   width: 1000px;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 250px;
+   }
+
+   .one{
+      max-height: 40vh;
+   }
+
+   .bor{
+    margin-top: 20px;
+    font-size: 20px; 
+    color: rgb(207, 108, 211);
+    text-align: center; width: 900px;
+    margin-left: 300px;
+   }
+     .meet{
+      width: 900px;
+      margin-left: 300px;
+      margin-bottom: 5px;
+     }
+
+     #a{
+     margin-left:620px;
+     }
+
+     #a1{
+      margin-left:580px;
+      }
+
+      .cards2{
+      margin-right: 30px;
+      margin-left: 100px;
+       margin-top: 130px;
+       
+      }
+  }
+
+   
